@@ -1,17 +1,17 @@
 /*! hugo-smorg theme | github.com/solutionroute/hugo-smorg */
 // See README.md for build instructions.
 
-// Variable definition and import order is important. 
+// Variable definition and import order is important.
 // 1. Import any Bulmaswatch variables first.
 // 2. Override Bulmaswatch variables as required.
 // 3. Import Bulma itself
 // 4. Import swatch overrides
 // 5. Finish off with any theme specific customizations.
 
-// 1 
+// 1
 @import "bulmaswatch/flatly/variables";
-// 2 
-$body-size:16px; 
+// 2
+$body-size:16px;
 $link: hsl(217, 71%,  53%);
 $family-sans-serif: "Open Sans", system-ui, sans-serif;
 $family-primary: $family-sans-serif;
@@ -23,10 +23,10 @@ $family-monospace: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, 
 // 5
 
 // Providing syntax highlighting theme:
-@import 'chroma-sass-themes/scss/taapaca';
+// @import 'chroma-sass-themes/scss/taapaca';
 // @import 'chroma-sass-themes/scss/vimspectrgrey-dark';
 // @import 'chroma-sass-themes/scss/vimspectr210-light';
-// @import 'chroma-sass-themes/scss/github';
+@import 'chroma-sass-themes/scss/github';
 // Defines a future-proof "system-ui" font using local system font face declarations
 @import 'system-font-css/system-font';
 
